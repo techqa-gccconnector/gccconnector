@@ -1,65 +1,43 @@
 {
-    "submission-details": {
-        "sourceLanguage": "en-US",
-        "custom_attributes": {
-           "Attribute-1":"abc67676",
-        "Attribute-3":"abc22",
-        "Attribute-2":"value1"
+  "submission-details": {
+    "sourceLanguage": "en-US",
+    "custom_attributes": {
+      "Attribute-1": "abc67676",
+      "Attribute-2": "value1",
+      "Attribute-3": "abc22"
+    }
+  },
+  "submission-criteria": [
+    {
+      "sourcePath": "/Test/",
+      "filePatterns": [
+        "techqa.doc"
+      ],
+      "targets": [
+        {
+          "targetLanguage": "de-DE",
+          "targetPath": "source/locale",
+          "targetName": "suffix::_de"
         }
+      ]
     },
-    "submission-criteria": [
+    {
+      "sourcePath": "/Test/",
+      "filePatterns": [
+        "techqa.doc"
+      ],
+      "targets": [
         {
-            "sourcePath": "/Test/",
-            "filePatterns": [
-                ".doc"
-            ],
-            "targets": [
-                {
-                    "targetLanguage": "de-DE",
-                    "targetPath": "source/locale",
-                    "targetName": "suffix::_de"
-                   
-                }
-            ]
+          "targetLanguage": "de-DE",
+          "targetPath": "Test/Create_Target/de-DE/",
+          "targetName": "suffix::_de"
         },
         {
-            "sourcePath": "/Test/",
-            "filePatterns": [
-                "CGIT test.json"
-            ],
-            "targets": [
-                {
-                    "targetLanguage": "de-DE",
-                    "targetPath": "Test/Create_Target/de-DE/",
-                    "targetName": "suffix::_de"
-                }
-            ]
-        },
-         {
-            "sourcePath": "/Test/",
-            "filePatterns": [
-                "Project.docx"
-            ],
-            "targets": [
-                {
-                    "targetLanguage": "de-DE",
-                    "targetPath": "Test/Create_Target/de-DE/",
-                    "targetName": "suffix::_Hotfix-de"
-                }
-            ]
-        },
-        {
-            "sourcePath": "/Test/",
-            "filePatterns": [
-                "abc.xml"
-            ],
-            "targets": [
-                {
-                    "targetLanguage": "it-IT",
-                    "targetPath": "Test/Create_Target/it-IT/",
-                    "targetName": "suffix::_hotfix-it"
-                }
-            ]
+          "targetLanguage": "it-IT",
+          "targetPath": "Test/Create_Target/it-IT/",
+          "targetName": "suffix::_hotfix-it"
         }
-    ]
+      ]
+    }
+  ]
 }
