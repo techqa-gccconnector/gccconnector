@@ -1,11 +1,7 @@
 {
   "submission-details": {
     "sourceLanguage": "en-US",
-    "custom_attributes": {
-      "Attribute-1": "abc67676",
-      "Attribute-2": "value1",
-      "Attribute-3": "abc22"
-    }
+    "custom_attributes": {}
   },
   "submission-criteria": [
     {
@@ -28,15 +24,11 @@
       ],
       "targets": [
         {
-          "targetLanguage": "de-DE",
-          "targetPath": "Test/Create_Target/de-DE/",
-          "targetName": "suffix::_de"
-        },
-        {
-          "targetLanguage": "it-IT",
-          "targetPath": "Test/Create_Target/it-IT/",
-          "targetName": "suffix::_hotfix-it"
+          "targetLanguage": "fr-FR",
+          "targetPath": "Test/Create_Target/FR-fr/",
+          "targetName": "suffix::_fr"
         }
+        
       ]
     }
   ]
