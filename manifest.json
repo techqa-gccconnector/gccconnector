@@ -24,7 +24,7 @@
       ],
       "targets": [
         {
-          "targetLanguage": "fr-FR",
+          "targetLanguage": "de-DE",
           "targetPath": "Test/Create_Target/de-DE/",
           "targetName": "suffix::_de"
         }
