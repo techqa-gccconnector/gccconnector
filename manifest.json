@@ -20,7 +20,7 @@
     {
       "sourcePath": "/Test/",
       "filePatterns": [
-        "techqa.doc"
+        "abc.doc"
       ],
       "targets": [
         {
