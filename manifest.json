@@ -1,0 +1,35 @@
+{
+  "submission-details": {
+    "sourceLanguage": "en-US",
+    "custom_attributes": {}
+  },
+  "submission-criteria": [
+    {
+      "sourcePath": "/Test/",
+      "filePatterns": [
+        "techqa.doc"
+      ],
+      "targets": [
+        {
+          "targetLanguage": "de-DE",
+          "targetPath": "source/locale",
+          "targetName": "suffix::_de"
+        }
+      ]
+    },
+    {
+      "sourcePath": "/Test/",
+      "filePatterns": [
+        "abc.doc"
+      ],
+      "targets": [
+        {
+          "targetLanguage": "de-DE",
+          "targetPath": "Test/Create_Target/de-DE/",
+          "targetName": "suffix::_de"
+        }
+        
+      ]
+    }
+  ]
+}
